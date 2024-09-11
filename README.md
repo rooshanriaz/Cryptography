@@ -28,7 +28,7 @@ You can find the implementation of the Transposition Cipher in the `transpositio
     git clone https://github.com/yourusername/cryptography-algorithms.git
     ```
 2. Navigate to the folder containing the implementation.
-3. Run the Caesar Cipher script:
+3. Run the scripts:
     ```bash
     python caesar_cipher.py
     python transposition_cipher.py
