@@ -5,6 +5,7 @@ This repository contains implementations of various cryptographic algorithms tha
 ## Table of Contents
 - [Implemented Algorithms](#implemented-algorithms)
   - [Caesar Cipher](#caesar-cipher)
+  - [Transposition Cipher](#transposition-cipher)
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
 - [License](#license)
@@ -16,15 +17,21 @@ The Caesar Cipher is one of the simplest and most widely known encryption techni
 
 You can find the implementation of the Caesar Cipher in the `caesar_cipher.py` file.
 
+### Transposition Cipher
+The Transposition Cipher works by rearranging the characters of the plaintext according to a specific system. In this implementation, a columnar transposition cipher is used.
+
+You can find the implementation of the Transposition Cipher in the `transposition_cipher.py` file.
+
 #### Usage:
 1. Clone the repository:
     ```bash
     git clone https://github.com/yourusername/cryptography-algorithms.git
     ```
 2. Navigate to the folder containing the implementation.
-3. Run the Caesar Cipher script:
+3. Run the scripts:
     ```bash
     python caesar_cipher.py
+    python transposition_cipher.py
     ```
 
 ## How to Use
