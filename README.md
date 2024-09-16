@@ -6,6 +6,7 @@ This repository contains implementations of various cryptographic algorithms tha
 - [Implemented Algorithms](#implemented-algorithms)
   - [Caesar Cipher](#caesar-cipher)
   - [Transposition Cipher](#transposition-cipher)
+  - [Vernam Cipher](#vernam-cipher)
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
 - [License](#license)
@@ -32,6 +33,7 @@ You can find the implementation of the Transposition Cipher in the `transpositio
     ```bash
     python caesar_cipher.py
     python transposition_cipher.py
+    python vernam-cipher.py
     ```
 
 ## How to Use
