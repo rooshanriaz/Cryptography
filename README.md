@@ -7,6 +7,7 @@ This repository contains implementations of various cryptographic algorithms tha
   - [Caesar Cipher](#caesar-cipher)
   - [Transposition Cipher](#transposition-cipher)
   - [Vernam Cipher](#vernam-cipher)
+ - [Usage](#usage)
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
 - [License](#license)
