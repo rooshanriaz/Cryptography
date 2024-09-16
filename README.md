@@ -23,6 +23,15 @@ The Transposition Cipher works by rearranging the characters of the plaintext ac
 
 You can find the implementation of the Transposition Cipher in the `transposition_cipher.py` file.
 
+### Vernam Cipher
+
+Vernam Cipher is a method of encrypting alphabetic text. It is one of the Substitution techniques for converting plain text into cipher text. In this mechanism, we assign a number to each character of the Plain-Text, like (a = 0, b = 1, c = 2, … z = 25). 
+
+#### Method
+
+Bitwise XOR both the number (Corresponding plain-text character number and Key character number). 
+Subtract the number from 26 if the resulting number is greater than or equal to 26, if it isn’t then leave it.
+
 #### Usage:
 1. Clone the repository:
     ```bash
