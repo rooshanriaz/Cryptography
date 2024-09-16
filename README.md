@@ -55,6 +55,8 @@ Cipher Block Chaining (CBC) mode uses an initialization vector (IV) and chains t
     python caesar_cipher.py
     python transposition_cipher.py
     python vernam-cipher.py
+    python ECB.py
+    python CBC.py
     ```
 
 ## How to Use
