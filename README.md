@@ -47,7 +47,7 @@ Cipher Block Chaining (CBC) mode uses an initialization vector (IV) and chains t
 #### Usage:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/rooshanriaz/cryptography-algorithms.git
+    git clone https://github.com/rooshanriaz/Cryptography-CY-312.git
     ```
 2. Navigate to the folder containing the implementation.
 3. Run the scripts:
