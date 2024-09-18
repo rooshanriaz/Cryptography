@@ -44,7 +44,7 @@ A Block Cipher encrypts data in fixed-size blocks, typically 64 or 128 bits. It 
 
 ### Stream Cipher
 
-A Stream Cipher encrypts data one bit or byte at a time, often using a key stream generated from a secret key. Stream ciphers are faster than block ciphers and do not require padding. They are often used for encrypting real-time data such as voice or video streams. A popular example of a stream cipher is RC4, though more modern ciphers like ChaCha20 offer better security.
+A Stream Cipher encrypts data one bit or byte at a time, often using a key stream generated from a secret key. Stream ciphers are faster than block ciphers and do not require padding. They are often used for encrypting real-time data such as voice or video streams. A popular example of a stream cipher is RC4, though more modern ciphers like ChaCha20 offer better security. Stream ciphers excel in fast, continuous data streams.
 
 ### ECB Mode of Operation
 
