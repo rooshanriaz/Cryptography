@@ -38,6 +38,10 @@ Vernam Cipher is a method of encrypting alphabetic text. It is one of the Substi
 Bitwise XOR both the number (Corresponding plain-text character number and Key character number). 
 Subtract the number from 26 if the resulting number is greater than or equal to 26, if it isn’t then leave it.
 
+### Block Cipher
+
+A Block Cipher encrypts data in fixed-size blocks, typically 64 or 128 bits. It processes each block of data separately and uses the same key for each block. Padding is added to the last block if the data is not a multiple of the block size. Common block ciphers include AES and DES. Block ciphers are well-suited for scenarios requiring secure encryption of large data sets, such as file encryption.
+
 ### ECB Mode of Operation
 
 Electronic Codebook (ECB) mode is the simplest form of encryption where each block of plaintext is encrypted independently using the same key.
