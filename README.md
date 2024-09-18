@@ -42,6 +42,10 @@ Subtract the number from 26 if the resulting number is greater than or equal to 
 
 A Block Cipher encrypts data in fixed-size blocks, typically 64 or 128 bits. It processes each block of data separately and uses the same key for each block. Padding is added to the last block if the data is not a multiple of the block size. Common block ciphers include AES and DES. Block ciphers are well-suited for scenarios requiring secure encryption of large data sets, such as file encryption.
 
+### Stream Cipher
+
+A Stream Cipher encrypts data one bit or byte at a time, often using a key stream generated from a secret key. Stream ciphers are faster than block ciphers and do not require padding. They are often used for encrypting real-time data such as voice or video streams. A popular example of a stream cipher is RC4, though more modern ciphers like ChaCha20 offer better security.
+
 ### ECB Mode of Operation
 
 Electronic Codebook (ECB) mode is the simplest form of encryption where each block of plaintext is encrypted independently using the same key.
