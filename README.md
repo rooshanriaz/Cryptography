@@ -8,6 +8,8 @@ This repository contains implementations of various cryptographic algorithms tha
   - [Transposition Cipher](#transposition-cipher)
   - [Vernam Cipher](#vernam-cipher)
     - [Method](#method)
+  - [ECB Mode of Operation](#ecb-mode-of-operation)
+  - [CBC Mode of Operation](#cbc-mode-of-operation)
  - [Usage](#usage)
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
@@ -34,10 +36,18 @@ Vernam Cipher is a method of encrypting alphabetic text. It is one of the Substi
 Bitwise XOR both the number (Corresponding plain-text character number and Key character number). 
 Subtract the number from 26 if the resulting number is greater than or equal to 26, if it isn’t then leave it.
 
+### ECB Mode of Operation
+
+Electronic Codebook (ECB) mode is the simplest form of encryption where each block of plaintext is encrypted independently using the same key.
+
+### CBC Mode of Operation
+
+Cipher Block Chaining (CBC) mode uses an initialization vector (IV) and chains the encryption of each block with the previous block.
+
 #### Usage:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/cryptography-algorithms.git
+    git clone https://github.com/rooshanriaz/Cryptography-CY-312.git
     ```
 2. Navigate to the folder containing the implementation.
 3. Run the scripts:
@@ -45,6 +55,8 @@ Subtract the number from 26 if the resulting number is greater than or equal to 
     python caesar_cipher.py
     python transposition_cipher.py
     python vernam-cipher.py
+    python ECB.py
+    python CBC.py
     ```
 
 ## How to Use
