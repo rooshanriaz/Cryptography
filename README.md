@@ -8,6 +8,7 @@ This repository contains implementations of various cryptographic algorithms tha
   - [Transposition Cipher](#transposition-cipher)
   - [Vernam Cipher](#vernam-cipher)
     - [Method](#method)
+  - [Block Cipher](#block-cipher)
   - [ECB Mode of Operation](#ecb-mode-of-operation)
   - [CBC Mode of Operation](#cbc-mode-of-operation)
  - [Usage](#usage)
