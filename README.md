@@ -9,6 +9,7 @@ This repository contains implementations of various cryptographic algorithms tha
   - [Vernam Cipher](#vernam-cipher)
     - [Method](#method)
   - [Block Cipher](#block-cipher)
+  - [Stream Cipher](#stream-cipher)
   - [ECB Mode of Operation](#ecb-mode-of-operation)
   - [CBC Mode of Operation](#cbc-mode-of-operation)
  - [Usage](#usage)
