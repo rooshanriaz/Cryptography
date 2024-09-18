@@ -40,7 +40,7 @@ Subtract the number from 26 if the resulting number is greater than or equal to 
 
 ### Block Cipher
 
-A Block Cipher encrypts data in fixed-size blocks, typically 64 or 128 bits. It processes each block of data separately and uses the same key for each block. Padding is added to the last block if the data is not a multiple of the block size. Common block ciphers include AES and DES. Block ciphers are well-suited for scenarios requiring secure encryption of large data sets, such as file encryption.
+A Block Cipher encrypts data in fixed-size blocks, typically 64 or 128 bits. It processes each block of data separately and uses the same key for each block. Padding is added to the last block if the data is not a multiple of the block size. Common block ciphers include AES and DES. Block ciphers are well-suited for scenarios requiring secure encryption of large data sets, such as file encryption. Block ciphers work best for large data.
 
 ### Stream Cipher
 
